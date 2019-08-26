@@ -2,7 +2,6 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.model_selection import train_test_split
 from sklearn import datasets
 from sklearn.metrics import accuracy_score
-from sklearn.decomposition import PCA
 
 
 # 引入iris数据集
@@ -14,4 +13,3 @@ model = GaussianNB()
 model.fit(x_train, y_train)
 y_model = model.predict(x_test)
 print(accuracy_score(y_model, y_test))
-
