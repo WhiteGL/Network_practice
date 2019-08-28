@@ -57,10 +57,25 @@ class LinkQueue(object):
             raise LookupError('empty queue')
 
 
-test = LinkQueue()
-for i in range(10):
-    test.enqueue(i)
-print(test.size())
-print(test.dequeue())
-print(test.size())
-print(test.top())
+class CircleQueue(object):
+    def __init__(self):
+        self.size = 5
+        self.queue = [None] * self.size
+        self.front = 0
+        self.rear = 0
+
+    def enqueue(self, data):
+        if (self.rear + 1) % self.size == self.front:
+            raise LookupError('full queue')
+        else:
+            self.queue[self.rear] = data
+            self.rear = (self.rear + 1) % self.size
+
+    def dequeue(self):
+        if self.rear == self.front:
+            raise LookupError('empty queue')
+        else:
+            data = self.queue[self.front]
+            self.queue[self.front] = None
+            self.front = (self.front + 1) % self.size
+            return data
