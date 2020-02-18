@@ -1,0 +1,80 @@
+id id
+mssubclass 连续
+mszoning 类别（RL，RM）
+lotfrontage 连续，有na
+lotarea 连续，有异常值
+street 类别，pave 100％，grvl 0％
+alley 类别，na 93％
+lotshape 类别
+landcontour 类别
+utilitys 类别，allpub 100%，na 0%
+lotconfig 类别
+landslope 类别
+neighborhood 类别
+condition1 类别 norm 86%
+condition2 类别 norm 99%
+bldgtype 类别 1fam 83%
+housestyle 类别
+overallqual 数字 级别
+overallcond 数字 级别
+yearbuilt 数字 建造年代
+yearremodadd 数字 重修年代
+roofstyle 类别
+roofmatl 类别 compshg 99%
+exterior1st 类别
+exterior2nd 类别
+masvnrtype 类别
+masvnrarea 数值 有na
+exterqual 类别
+extercond 类别
+foundation 类别
+bsmtqual 类别
+bsmtcond 类别
+bsmtexposure 类别
+bsmtfintype1 类别
+bsmtfinsf1 数值
+bsmtfintype2 类别
+bsmtfinsf2 数值
+bsmtunfsf 数值
+totalbsmtsf 数值
+heating 类别 gasa 99%
+heatingqc 类别
+centralair 类别
+electrical 类别 sbrkr 99%
+1stflrsf 数值 有异常值
+2ndflrsf 数值 有异常值
+lowqualfinsf 数值 多0 有异常值
+grlivarea 数值 有异常值
+bsmthalfbath 数量
+bsmtfullbath 数量
+fullbath 数量
+halfbath 数量
+bedroomabvgr 数量
+kitchenadvgr 数量
+kitchenqual 类别
+totrmsabvgrd 数量
+functional 类别 typ 93%
+fireplaces 数量
+fireplacequ 类别
+garagetype 类别
+garageyrblt 年份 有na                   Year
+garagefinish 类别
+garagecars 数量
+garagearea 数量 有异常值
+garagequal 类别 有na
+garagecond 类别 有na
+paveddrive 类别
+wooddecksf 数目 有异常
+openporchsf 数值 有异常
+enclosedporch 数值 有异常
+3ssnporch 数值 大部分0 有异常
+screenporch 数值 大部分0 有异常
+poolarea 数值 大部分0 有异常
+poolqc 类别 na 100%
+fence 类别 na 81%
+miscfeature 类别 na96%
+miscval 数值 大部分0 有异常
+mosold 月份
+yrsold 年份                             year
+saletype 类别
+salecondition 类别
